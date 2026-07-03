@@ -1,0 +1,78 @@
+{
+    "hero_badge": "Nota 4,4 no Google · 182 avaliações",
+    "hero_line": "Mecânica de confiança em Araucária para o seu carro rodar tranquilo.",
+    "services_headline": "Serviços completos para o seu carro, num lugar só",
+    "services_intro": "Diagnóstico, manutenção e revisão para as principais marcas populares. Atendemos Araucária, Curitiba e região metropolitana.",
+    "split_headline": "Cuidamos do seu carro como se fosse nosso",
+    "confidence_headline": "Por que tanta gente da região confia na Carango",
+    "location_headline": "Fácil de chegar, no bairro Iguaçu, em Araucária",
+    "steps_headline": "Resolver é simples: em três passos",
+    "faq_headline": "Perguntas frequentes de quem chega até aqui",
+    "service_cards": [
+        {
+            "title": "Diagnóstico",
+            "body": "Luz acesa no painel ou barulho estranho? Avaliamos com scanner e explicamos o problema antes de qualquer serviço.",
+            "icon": "ph-gauge"
+        },
+        {
+            "title": "Freios e suspensão",
+            "body": "Pastilhas, discos, amortecedores e alinhamento. Segurança e conforto para encarar as ruas de Curitiba e região.",
+            "icon": "ph-steering-wheel"
+        },
+        {
+            "title": "Revisão preventiva",
+            "body": "Troca de óleo, filtros, correias e checagem geral. Manutenção em dia evita dor de cabeça e gasto maior depois.",
+            "icon": "ph-wrench"
+        }
+    ],
+    "benefits": [
+        {
+            "title": "Orçamento claro, sem surpresa",
+            "body": "Você aprova antes. Explicamos o que precisa ser feito, o que pode esperar e quanto custa.",
+            "icon": "ph-check-circle"
+        },
+        {
+            "title": "Especialistas em carros populares",
+            "body": "Fiat, Chevrolet, VW, Renault, Hyundai, Toyota, Honda e Nissan. Peças e experiência para o seu modelo.",
+            "icon": "ph-car"
+        },
+        {
+            "title": "Atendimento rápido no WhatsApp",
+            "body": "Mande uma mensagem com o problema do carro. A gente responde, orienta e já agenda seu horário.",
+            "icon": "ph-whatsapp-logo"
+        }
+    ],
+    "faq": [
+        {
+            "question": "Preciso agendar ou posso chegar direto?",
+            "answer": "Você pode chegar, mas agendar pelo WhatsApp garante atendimento mais rápido e horário reservado para o seu carro."
+        },
+        {
+            "question": "Vocês atendem quais marcas de carro?",
+            "answer": "Trabalhamos com as principais marcas populares: Fiat, Chevrolet, Volkswagen, Renault, Hyundai, Toyota, Honda e Nissan."
+        },
+        {
+            "question": "O orçamento é cobrado?",
+            "answer": "A avaliação inicial e o orçamento são conversados sem compromisso. Você só aprova o serviço se fizer sentido para você."
+        },
+        {
+            "question": "Atendem clientes de Curitiba ou só de Araucária?",
+            "answer": "Atendemos Araucária, Curitiba e toda a região metropolitana. Estamos no bairro Iguaçu, com acesso fácil pela Av. Archelau de Almeida Tôrres."
+        }
+    ],
+    "image_direction": {
+        "hero_mobile": "Mecânico de meia-idade sorrindo ao lado de carro popular em oficina limpa, dia claro e seco, luz natural, enquadramento vertical com espaço superior para texto.",
+        "hero_desktop": "Vista ampla da oficina organizada com elevador e carro popular, dia claro típico de Curitiba/RMC, sem placas ou logos, espaço à esquerda para headline.",
+        "service_1": "Close das mãos de mecânico usando scanner de diagnóstico no motor, luz de dia, fundo desfocado da oficina, recorte quadrado seguro para mobile.",
+        "service_2": "Mecânica jovem verificando freio com carro no elevador, ambiente limpo e iluminado, dia seco, sem marcas visíveis, corte vertical funciona bem.",
+        "trust": "Cliente recebendo a chave do carro de um mecânico diferente dos anteriores, aperto de mão, sorrisos naturais, pátio externo em dia claro e seco.",
+        "og_image": "Fachada genérica de oficina com carro popular estacionado, céu azul de dia seco, sem placas ou logos falsos, composição horizontal 1200x630 com área livre para texto."
+    },
+    "quality_checks": [
+        "Contraste AA validado: azul #0F4C81 com texto branco e amarelo #F4C430 apenas em detalhes, nunca como fundo de texto claro.",
+        "Botão de WhatsApp fixo e visível no mobile, com aria-label, link wa.me e schema LocalBusiness com endereço, horário e avaliações.",
+        "Copy revisada: frases curtas, acentuação correta, sem promessas de posição garantida no Google ou em IAs — só linguagem de estrutura e possibilidade."
+    ],
+    "created_by": "zenmux:anthropic/claude-fable-5",
+    "created_at": "2026-07-02T20:35:23-03:00"
+}
