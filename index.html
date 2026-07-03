@@ -25,7 +25,7 @@
         "Curitiba e regiao metropolitana"
     ],
     "telephone": "5541987266581",
-    "url": "",
+    "url": "https://agenciaampler.github.io/prospect-carango-oficina-mec-anica-e-auto-center/index.html",
     "knowsAbout": [
         "oficina mecânica",
         "diagnóstico automotivo",
@@ -59,6 +59,8 @@
       --line: #d9dee7;
       --paper: #f7f8fb;
       --white: #fff;
+      --cta: #10863f;
+      --cta-hover: #0d7336;
       --radius: 8px;
       --shadow: 0 24px 70px rgba(13,17,23,.16);
       --ease: cubic-bezier(.2,.8,.2,1);
@@ -73,8 +75,8 @@
     img { max-width: 100%; display: block; }
     .wrap { width: min(1180px, calc(100% - 32px)); margin: 0 auto; }
     .ph { font-size: 1.18em; line-height: 1; }
-    .hero { min-height: 92svh; color: #fff; background: linear-gradient(90deg, rgba(7,11,19,.88) 0%, rgba(7,11,19,.58) 42%, rgba(7,11,19,.10) 100%), url('assets/images/hero-mobile.webp'), linear-gradient(135deg, var(--primary), var(--navy)); background-size: cover; background-position: center; position: relative; overflow: hidden; }
-    .hero::after { content: ""; position: absolute; inset: auto 0 0; height: 32%; background: linear-gradient(0deg, rgba(7,11,19,.72), transparent); pointer-events: none; }
+    .hero { min-height: 92svh; color: #fff; background: linear-gradient(90deg, rgba(7,11,19,.92) 0%, rgba(7,11,19,.72) 44%, rgba(7,11,19,.18) 100%), url('assets/images/hero-mobile.webp'), linear-gradient(135deg, var(--primary), var(--navy)); background-size: cover; background-position: center right; position: relative; overflow: hidden; }
+    .hero::after { content: ""; position: absolute; inset: auto 0 0; height: 38%; background: linear-gradient(0deg, rgba(7,11,19,.82), transparent); pointer-events: none; }
     .hero-media { display: none; }
     .hero-media img { width: 100%; height: auto; }
     .nav { position: absolute; z-index: 3; inset: 18px 0 auto; display: flex; justify-content: space-between; align-items: center; gap: 18px; width: min(1180px, calc(100% - 32px)); margin: 0 auto; padding: 12px 14px; border: 1px solid rgba(255,255,255,.18); border-radius: 999px; background: rgba(7,11,19,.46); backdrop-filter: blur(18px); }
@@ -86,25 +88,23 @@
     .nav-links a:hover { color: #fff; }
     .nav-cta, .button { min-height: 48px; display: inline-flex; align-items: center; justify-content: center; gap: 9px; border-radius: 999px; padding: 0 20px; font-weight: 900; cursor: pointer; touch-action: manipulation; transition: transform .22s var(--ease), box-shadow .22s var(--ease), background .22s var(--ease), border-color .22s var(--ease); }
     .nav-cta { color: var(--ink); background: #fff; }
-    .button.primary { color: #fff; background: var(--secondary); text-shadow: 0 1px 2px rgba(0,0,0,.24); box-shadow: 0 18px 40px color-mix(in srgb, var(--secondary) 32%, transparent), inset 0 1px 0 rgba(255,255,255,.18); }
+    .button.primary { color: #fff; background: var(--cta); text-shadow: 0 1px 2px rgba(0,0,0,.24); box-shadow: 0 18px 40px rgba(16,134,63,.30), inset 0 1px 0 rgba(255,255,255,.18); }
+    .button.primary:hover { background: var(--cta-hover); }
     .button.secondary { color: #fff; border: 1px solid rgba(255,255,255,.38); background: rgba(7,11,19,.34); backdrop-filter: blur(14px); box-shadow: inset 0 1px 0 rgba(255,255,255,.10); }
     .button.dark { color: #fff; background: var(--ink); }
     .button:hover, .nav-cta:hover, .floating-wa:hover { transform: translateY(-2px); }
     .button:active, .nav-cta:active, .floating-wa:active { transform: translateY(0) scale(.98); }
     .hero-content { position: relative; z-index: 2; display: grid; align-content: end; min-height: 92svh; padding: 132px 0 34px; }
-    .hero-copy { width: min(980px, 100%); }
+    .hero-copy { width: min(720px, 100%); }
     .eyebrow { margin: 0 0 13px; color: var(--accent); font-family: "Space Mono", ui-monospace, monospace; font-size: 12px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
-    h1 { margin: 0; max-width: 1040px; font-family: Syncopate, Inter, sans-serif; font-size: clamp(42px, 9.2vw, 132px); line-height: .86; letter-spacing: 0; text-transform: uppercase; text-wrap: balance; overflow-wrap: anywhere; }
+    h1 { margin: 0; max-width: 760px; font-family: Inter, sans-serif; font-size: clamp(40px, 5.7vw, 82px); line-height: .96; letter-spacing: 0; font-weight: 950; text-wrap: balance; overflow-wrap: anywhere; }
     .hero-line { max-width: 560px; margin: 18px 0 0; color: rgba(255,255,255,.86); font-size: clamp(17px, 2vw, 22px); line-height: 1.35; font-weight: 700; }
     .lead { max-width: 690px; color: rgba(255,255,255,.84); font-size: clamp(17px, 2vw, 22px); line-height: 1.5; }
     .actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
     .hero-meta { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 22px; }
     .hero-meta span { display: inline-flex; align-items: center; min-height: 34px; padding: 0 12px; border: 1px solid rgba(255,255,255,.18); border-radius: 999px; background: rgba(7,11,19,.32); color: rgba(255,255,255,.78); font-family: "Space Mono", ui-monospace, monospace; font-size: 12px; backdrop-filter: blur(12px); }
-    .hero-center .hero-copy { margin-inline: auto; text-align: center; }
-    .hero-center .actions, .hero-center .hero-meta { justify-content: center; }
-    .hero-right .hero-copy { margin-left: auto; text-align: right; }
-    .hero-right .hero-line { margin-left: auto; }
-    .hero-right .actions, .hero-right .hero-meta { justify-content: flex-end; }
+    .hero-center .hero-copy, .hero-right .hero-copy { margin-inline: 0; text-align: left; }
+    .hero-center .actions, .hero-center .hero-meta, .hero-right .actions, .hero-right .hero-meta { justify-content: flex-start; }
     section { padding: 82px 0; }
     body.density-compact section { padding-block: 70px; }
     body.density-dense section { padding-block: 64px; }
@@ -188,6 +188,35 @@
     .style-industrial-bold .hero { background-position: center right; }
     .style-industrial-bold .trust-item strong, .style-industrial-bold .step-number { font-family: "Space Mono", ui-monospace, monospace; }
     .style-technical-dark .band, .style-technical-dark .footer { background: #070b13; }
+    .style-concierge-light { --paper: #f5f6f2; --soft: #ebeDE8; --line: #d9ddd5; --radius: 6px; }
+    .style-concierge-light .hero { color: var(--ink); background-image: linear-gradient(90deg, #f7f8f3 0%, #f7f8f3 43%, rgba(247,248,243,.76) 58%, rgba(247,248,243,.04) 100%), url('assets/images/hero-mobile.webp'), linear-gradient(135deg, #f7f8f3, #dde4ea); }
+    .style-concierge-light .hero::after { height: 28%; background: linear-gradient(0deg, rgba(247,248,243,.94), transparent); }
+    .style-concierge-light .nav { color: var(--ink); background: rgba(255,255,255,.78); border-color: rgba(13,17,23,.12); box-shadow: 0 18px 54px rgba(13,17,23,.12); }
+    .style-concierge-light .nav-links { color: rgba(13,17,23,.64); }
+    .style-concierge-light .nav-links a:hover { color: var(--ink); }
+    .style-concierge-light .nav-cta { color: #fff; background: var(--ink); }
+    .style-concierge-light h1 { font-family: Georgia, "Times New Roman", serif; font-size: clamp(42px, 6.2vw, 88px); line-height: 1; font-weight: 700; }
+    .style-concierge-light .hero-line { color: rgba(13,17,23,.72); font-weight: 650; }
+    .style-concierge-light .button.secondary { color: var(--ink); border-color: rgba(13,17,23,.18); background: rgba(255,255,255,.72); }
+    .style-concierge-light .hero-meta span { color: rgba(13,17,23,.72); border-color: rgba(13,17,23,.12); background: rgba(255,255,255,.78); }
+    .style-concierge-light .trust-strip, .style-concierge-light .brand-strip, .style-concierge-light .faq, .style-concierge-light .location { background: #f7f8f3; }
+    .style-concierge-light .band { color: var(--ink); background: #fff; border-block: 1px solid var(--line); }
+    .style-concierge-light .band p, .style-concierge-light .signal span { color: var(--muted); }
+    .style-concierge-light .signal { background: #f4f6f1; box-shadow: inset 0 0 0 1px var(--line); }
+    .style-concierge-light .signal strong { color: var(--ink); }
+    .style-motorsport-grid { --radius: 3px; --paper: #090c10; --soft: #111821; --line: #27313e; --muted: #aab4c2; }
+    .style-motorsport-grid .hero { background-position: center right; }
+    .style-motorsport-grid h1 { font-family: Syncopate, Inter, sans-serif; font-size: clamp(30px, 5.2vw, 76px); line-height: 1; text-transform: uppercase; }
+    .style-motorsport-grid section, .style-motorsport-grid .region, .style-motorsport-grid .faq, .style-motorsport-grid .location { background: #090c10; color: #f8fafc; }
+    .style-motorsport-grid .trust-strip, .style-motorsport-grid .brand-strip { background: #0f141b; border-color: var(--line); }
+    .style-motorsport-grid .trust-grid { background: var(--line); border-color: var(--line); }
+    .style-motorsport-grid .trust-item, .style-motorsport-grid .service-card, .style-motorsport-grid .step, .style-motorsport-grid details, .style-motorsport-grid .region-panel { color: #f8fafc; background: #111821; border-color: var(--line); box-shadow: none; }
+    .style-motorsport-grid .section-head p, .style-motorsport-grid .service-card p, .style-motorsport-grid .split-copy p, .style-motorsport-grid .step p, .style-motorsport-grid .faq p, .style-motorsport-grid .region-panel p { color: var(--muted); }
+    .style-motorsport-grid .brand-pill, .style-motorsport-grid .region-pill { color: #f8fafc; background: #151d28; border: 1px solid var(--line); }
+    .style-motorsport-grid .brand-pill.has-logo { background: #f8fafc; color: #0d1117; }
+    .style-motorsport-grid .split-media, .style-motorsport-grid .location-card, .style-motorsport-grid .band, .style-motorsport-grid .contact, .style-motorsport-grid .footer { background: #05070a; }
+    .style-motorsport-grid .service-card img { filter: saturate(.96) contrast(1.08); }
+    .style-motorsport-grid .button.secondary { border-color: rgba(255,255,255,.28); background: rgba(255,255,255,.08); }
     .steps { background: var(--soft); }
     .step-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
     .step { position: relative; padding: 24px; border: 1px solid var(--line); border-radius: var(--radius); background: #fff; transition: transform .24s var(--ease), box-shadow .24s var(--ease), border-color .24s var(--ease); }
@@ -215,7 +244,7 @@
     .footer-list { display: grid; gap: 9px; }
     .footer-list a, .footer-list span { color: rgba(255,255,255,.66); font-size: 14px; line-height: 1.5; }
     .footer-list a:hover { color: #fff; }
-    .footer .button { margin-top: 20px; min-height: 44px; color: #fff; background: var(--secondary); }
+    .footer .button { margin-top: 20px; min-height: 44px; color: #fff; background: var(--cta); }
     .footer-bottom { display: flex; justify-content: space-between; gap: 18px; margin-top: 42px; padding-top: 20px; border-top: 1px solid rgba(255,255,255,.12); color: rgba(255,255,255,.50); font-size: 12px; }
     .reveal { opacity: 0; transform: translateY(22px) scale(.985); transition: opacity .55s var(--ease), transform .55s var(--ease); }
     .reveal.is-visible { opacity: 1; transform: translateY(0); }
@@ -224,12 +253,19 @@
       .reveal { opacity: 1; transform: none; }
     }
     @media (min-width: 761px) {
-      .hero { background-image: linear-gradient(90deg, rgba(7,11,19,.88) 0%, rgba(7,11,19,.58) 42%, rgba(7,11,19,.10) 100%), url('assets/images/hero-desktop.webp'), linear-gradient(135deg, var(--primary), var(--navy)); background-position: center; }
+      .hero { background-image: linear-gradient(90deg, rgba(7,11,19,.92) 0%, rgba(7,11,19,.72) 44%, rgba(7,11,19,.18) 100%), url('assets/images/hero-desktop.webp'), linear-gradient(135deg, var(--primary), var(--navy)); background-position: center right; }
+      .style-concierge-light .hero { background-image: linear-gradient(90deg, #f7f8f3 0%, #f7f8f3 43%, rgba(247,248,243,.76) 58%, rgba(247,248,243,.04) 100%), url('assets/images/hero-desktop.webp'), linear-gradient(135deg, #f7f8f3, #dde4ea); }
+      .style-motorsport-grid .hero { background-image: linear-gradient(90deg, rgba(5,7,10,.94) 0%, rgba(5,7,10,.72) 45%, rgba(5,7,10,.18) 100%), url('assets/images/hero-desktop.webp'), linear-gradient(135deg, #05070a, #161d28); }
+      .floating-wa { display: none; }
     }
     @media (max-width: 760px) {
       .wrap { width: min(100% - 28px, 1180px); }
       body { padding-bottom: 76px; }
       .hero { min-height: auto; background: var(--ink); }
+      .style-concierge-light .hero { color: var(--ink); background: #f7f8f3; }
+      .style-concierge-light .hero-media { background: #f7f8f3; }
+      .style-concierge-light .hero-line, .style-concierge-light .lead { color: rgba(13,17,23,.72); }
+      .style-motorsport-grid .hero { background: #05070a; }
       .hero::after { display: none; }
       .nav { position: absolute; width: min(100% - 28px, 1180px); border-radius: 16px; padding: 10px; }
       .brand-mark { width: 36px; height: 36px; }
@@ -239,7 +275,7 @@
       .hero-content { min-height: auto; padding: 24px 0 30px; }
       .hero-copy { width: 100%; }
       .eyebrow { margin-bottom: 10px; }
-      h1 { font-size: clamp(32px, 11vw, 50px); line-height: .96; }
+      h1 { font-size: clamp(30px, 9vw, 44px); line-height: 1; }
       .hero-line, .lead { font-size: 16px; line-height: 1.45; }
       .actions .button { width: 100%; }
       .trust-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
@@ -263,7 +299,7 @@
     }
   </style>
 </head>
-<body class="site-variant variant-15-brand-rail-first-industrial-bold family-brand-rail-first style-industrial-bold hero-center service-standard density-dense cta-assertive map-split" data-site-variant="15-brand-rail-first-industrial-bold" data-site-variant-name="Marcas atendidas em primeiro plano / Industrial bold">
+<body class="site-variant variant-23-symptom-solution-editorial-premium family-symptom-solution style-editorial-premium hero-right service-featured density-spacious cta-balanced map-split" data-site-variant="23-symptom-solution-editorial-premium" data-site-variant-name="Problema do motorista para solução / Editorial premium">
   <header class="hero">
     <nav class="nav">
       <a class="brand" href="#"><span class="brand-mark">C</span><span>Carango - Oficina Mecânica e Auto Center</span></a>
@@ -298,7 +334,7 @@
   </header>
 
   <main>
-    <section class="trust-strip" aria-label="Resumo de confiança" style="order: 20">
+    <section class="trust-strip" aria-label="Resumo de confiança" style="order: 10">
       <div class="wrap trust-grid">
         <div class="trust-item"><i class="ph ph-star" aria-hidden="true"></i><strong>4,4/5</strong><span>182 avaliações</span></div>
         <div class="trust-item"><i class="ph ph-map-pin" aria-hidden="true"></i><strong>Curitiba</strong><span>Atendimento local e RMC</span></div>
@@ -307,7 +343,7 @@
       </div>
     </section>
 
-    <section class="brand-strip" style="order: 10">
+    <section class="brand-strip" style="order: 50">
       <div class="wrap">
         <p class="eyebrow">Marcas atendidas</p>
         <div class="brand-rail"><span class="brand-pill">Fiat</span><span class="brand-pill">Chevrolet</span><span class="brand-pill">Volkswagen</span><span class="brand-pill">Renault</span><span class="brand-pill">Hyundai</span><span class="brand-pill">Toyota</span><span class="brand-pill">Honda</span><span class="brand-pill">Nissan</span></div>
@@ -327,7 +363,7 @@
       </div>
     </section>
 
-    <section class="split-section" style="order: 40">
+    <section class="split-section" style="order: 20">
       <div class="wrap split">
         <div class="split-copy reveal">
           <p class="eyebrow">Atendimento</p>
@@ -338,13 +374,13 @@
           </div>
         </div>
         <figure class="split-media reveal">
-          <img src="assets/images/service-1.webp" width="1024" height="768" alt="Oficina automotiva em atendimento" loading="lazy">
+          <img src="assets/images/trust.webp" width="1024" height="768" alt="Atendimento automotivo com orientação clara" loading="lazy">
           <figcaption class="media-caption"><span class="eyebrow">Atendimento direto</span><strong>Do sintoma ao agendamento.</strong></figcaption>
         </figure>
       </div>
     </section>
 
-    <section class="band" id="confianca" style="order: 50">
+    <section class="band" id="confianca" style="order: 40">
       <div class="wrap band-grid reveal">
         <div>
           <p class="eyebrow">Confiança local</p>
